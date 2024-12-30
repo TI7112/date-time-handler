@@ -17,6 +17,10 @@ function detail(bufferDate) {
         noOfDays: new Date(date.getFullYear(), date.getMonth()+1, 0).getDate(),
         year: date.getFullYear(),
     }
+    return data
 }
 
-detail("2024-02-21")
+module.exports = {
+    now,
+    detail
+}

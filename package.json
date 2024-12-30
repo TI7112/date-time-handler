@@ -9,8 +9,13 @@
   },
   "author": "Threat Intelligence",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "nodemon": "^3.1.9"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TI7112/date-time-handler.git"
+  },
+  "description": ""
 }
