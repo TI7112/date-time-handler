@@ -20,7 +20,7 @@ function detail(bufferDate) {
     return data
 }
 
-module.exports = {
+module.exports.date = {
     now,
     detail
 }

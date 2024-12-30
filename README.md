@@ -30,7 +30,7 @@ Javascript
 
 
 
-detail()
+detail("Y-m-d")
 The detail("Y-m-d") function accepts a Date object or a date string, and returns a detailed object with information about the given date, such as:
 * The day of the week (0-6).
 * The day name (e.g., "sunday").
@@ -87,7 +87,7 @@ Explanation of the Code
 * days: An array that contains the names of the days of the week.
 * months: An array that contains the names of the months of the year.
 * now(): Returns the current Date object representing the current date and time.
-* detail(bufferDate): Takes a Date object or a date string and returns an object with detailed information about the given date:
+* detail("Y-m-d"): Takes a Date object or a date string and returns an object with detailed information about the given date:
 o day: The day of the week (from 0 for Sunday to 6 for Saturday).
 o dayName: The name of the day (e.g., "sunday", "monday").
 o date: The day of the month (1-31).
