@@ -3,7 +3,7 @@
 import { DateHandler } from "@ti7112/date-time-handler";
 
 
-Date Utilities Module
+# Date Utilities Module
 
 This is a simple JavaScript module that provides utility functions for working with dates. It offers two primary functions:
 1. DateHandler.now() - Returns the current date and time.
