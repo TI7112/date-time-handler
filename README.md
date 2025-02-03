@@ -47,7 +47,7 @@ The DateHandler.detail("Y-m-d") function accepts a Date object or a date string,
 
 ## Parameters for DateHandler.detail():
 ```markdown
-* bufferDate: A Date object or a date string (e.g., '2024-12-30' or '2024-12-01T00:00:00Z'). If no date is provided, it defaults to the current date.
+bufferDate: A Date object or a date string (e.g., '2024-12-30' or '2024-12-01T00:00:00Z'). If no date is provided, it defaults to the current date.
 ```
 
 ## Explanation of the Code
@@ -56,13 +56,13 @@ The DateHandler.detail("Y-m-d") function accepts a Date object or a date string,
 * months: An array that contains the names of the months of the year.
 * now(): Returns the current Date object representing the current date and time.
 * detail("Y-m-d"): Takes a Date object or a date string and returns an object with detailed information about the given date:
-o day: The day of the week (from 0 for Sunday to 6 for Saturday).
-o dayName: The name of the day (e.g., "sunday", "monday").
-o date: The day of the month (1-31).
-o month: The index of the month (0-11).
-o monthName: The name of the month (e.g., "January", "February").
-o noOfDays: The number of days in the specified month.
-o year: The year of the provided date.
+* day: The day of the week (from 0 for Sunday to 6 for Saturday).
+* dayName: The name of the day (e.g., "sunday", "monday").
+* date: The day of the month (1-31).
+* month: The index of the month (0-11).
+* monthName: The name of the month (e.g., "January", "February").
+* noOfDays: The number of days in the specified month.
+* year: The year of the provided date.
 ```
 
 ```markdown
