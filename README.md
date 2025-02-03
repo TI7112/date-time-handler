@@ -1,31 +1,28 @@
-## DATE-TIME-HANDLER
+# DATE-TIME-HANDLER
 
-import { DateHandler } from "@ti7112/date-time-handler";
+' import { DateHandler } from "@ti7112/date-time-handler";
 
 
-# Date Utilities Module
+## Date Utilities Module
 
 This is a simple JavaScript module that provides utility functions for working with dates. It offers two primary functions:
-1. DateHandler.now() - Returns the current date and time.
-2. DateHandler.detail(bufferDate) - Accepts a specific date as input (in Date format) and returns detailed information about the date, such as the day of the week, the name of the month, the number of days in the month, and the year.
-Table of Contents
+- 1. DateHandler.now() - Returns the current date and time.
+- 2. DateHandler.detail(bufferDate) - Accepts a specific date as input (in Date format) and returns detailed information about the date, such as the day of the week, the name of the month, the number of days in the month, and the year.
+
+## Table of Contents
 * Installation
 * Usage
 o now()
 o detail()
 * Example
 * License
-Installation
+
+## Installation
 To use this module, you can either download the file directly or use a package manager like npm or yarn.
 If you're including the module directly in your project, save the JavaScript file as date-utils.js (or another name of your choosing) and import it into your code.
 For Node.js projects, you can install it by linking the module into your project directory.
 
-
-
-
-
-
-Usage
+## Usage
 DateHandler.now()
 The DateHandler.now() function returns the current date and time as a Date object.
 Javascript
