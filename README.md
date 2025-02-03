@@ -33,13 +33,8 @@ The DateHandler.now() function returns the current date and time as a Date objec
 Javascript
 ```
 
-
-
-
-
-
-
-DateHandler.detail("Y-m-d")
+## DateHandler.detail("Y-m-d")
+```markdown
 The DateHandler.detail("Y-m-d") function accepts a Date object or a date string, and returns a detailed object with information about the given date, such as:
 * The day of the week (0-6).
 * The day name (e.g., "sunday").
@@ -48,51 +43,15 @@ The DateHandler.detail("Y-m-d") function accepts a Date object or a date string,
 * The month name (e.g., "January").
 * The number of days in the month.
 * The year.
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Parameters for DateHandler.detail():
+## Parameters for DateHandler.detail():
+```markdown
 * bufferDate: A Date object or a date string (e.g., '2024-12-30' or '2024-12-01T00:00:00Z'). If no date is provided, it defaults to the current date.
+```
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Explanation of the Code
+## Explanation of the Code
+```markdown
 * days: An array that contains the names of the days of the week.
 * months: An array that contains the names of the months of the year.
 * now(): Returns the current Date object representing the current date and time.
@@ -104,8 +63,11 @@ o month: The index of the month (0-11).
 o monthName: The name of the month (e.g., "January", "February").
 o noOfDays: The number of days in the specified month.
 o year: The year of the provided date.
+```
 
+```markdown
 This module is useful for projects that need to manipulate or display date-related information in a structured format. You can easily extend it by adding more date-related methods or integrating it into larger applications.
+```
 
 
 
