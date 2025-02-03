@@ -14,8 +14,8 @@ This is a simple JavaScript module that provides utility functions for working w
 ```markdown
 * Installation
 * Usage
-o now()
-o detail()
+* now()
+* detail()
 * Example
 * License
 ```
