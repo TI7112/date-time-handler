@@ -6,6 +6,7 @@ function now() {
     return date;
 }
 
+
 function detail(bufferDate) {
     const date = new Date(bufferDate);
     const data = {
